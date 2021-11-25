@@ -102,4 +102,20 @@ img {
 }
 
 @media (max-width: 576px) {
+  .hero h1 {
+    font-size: 45px;
+  }
+
+  .container {
+    text-align: center;
+  }
+
+  .featured-subtitle {
+    margin-top: 50px;
+    margin-bottom: 40px;
+  }
+
+  .project-title {
+    font-size: 40px;
+  }
 }
