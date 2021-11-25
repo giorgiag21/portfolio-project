@@ -17,12 +17,39 @@
   line-height: 27px;
 }
 
-h1 {
+.btn-branding:hover {
+  background-color: white;
+  color: var(--btn-color);
+  border: 1px solid var(--btn-color);
+}
+
+.btn-branding-outline {
+  color: var(--btn-color);
+  border: 1px solid var(--btn-color);
+  border-radius: 4px;
+  padding: 18px 30px;
+  font-family: var(--secondary-font-family);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+}
+
+.btn-branding-outline:hover {
+  background-color: var(--btn-color);
+  color: white;
+}
+
+h1,
+h2 {
   font-family: var(--heading-font-family);
 }
 
 p {
   font-family: var(--secondary-font-family);
+}
+
+img {
+  border-radius: 8px;
 }
 
 .hero {
@@ -49,4 +76,30 @@ p {
   font-size: 24px;
   line-height: 36px;
   font-weight: normal;
+}
+
+.project-title {
+  font-size: 64px;
+  font-weight: bold;
+  margin-bottom: 55px;
+}
+
+.featured-subtitle {
+  text-align: center;
+  color: var(--p-color);
+  font-size: 18px;
+  line-height: 27px;
+  margin-top: 127px;
+  margin-bottom: 80px;
+}
+
+.project-description {
+  color: var(--p-color);
+  opacity: 70%;
+  font-size: 16px;
+  line-height: 30px;
+  margin-bottom: 65px;
+}
+
+@media (max-width: 576px) {
 }
