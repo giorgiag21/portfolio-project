@@ -59,7 +59,7 @@ img {
 footer {
   background-color: var(--bg-color);
   text-align: center;
-  padding: 60px 0;
+  padding: 50px 0;
 }
 
 .hero p {
@@ -93,7 +93,6 @@ footer {
 .project-title {
   font-size: 50px;
   font-weight: bold;
-
   margin-bottom: 20px;
 }
 
@@ -124,6 +123,11 @@ footer {
   margin-top: 30px;
 }
 
+.content-container h3 {
+  font-family: var(--secondary-font-family);
+  font-weight: 700;
+}
+
 footer .social-links a {
   margin: 0 20px;
   color: var(--btn-color);
@@ -140,7 +144,7 @@ footer .social-links a:hover {
   animation: fa-spin 7s linear 0s infinite normal none;
 }
 
-footer .email-link {
+/*footer .email-link {
   text-decoration: none;
   color: black;
   font-size: 24px;
@@ -148,7 +152,7 @@ footer .email-link {
 }
 footer .email-link:hover {
   color: var(--btn-color);
-}
+}*/
 
 @media (max-width: 900px) {
   .hero {
@@ -184,5 +188,6 @@ footer .email-link:hover {
 
   .content-container h1 {
     font-size: 50px;
+    margin-top: 0;
   }
 }
