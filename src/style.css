@@ -115,17 +115,49 @@ footer {
 }
 
 .content-container {
-  padding: 100px 5px;
+  padding: 100px 5px 30px 5px;
 }
 
 .content-container h1 {
-  font-size: 64px;
-  line-height: 80px;
+  font-size: 50px;
+  line-height: 50px;
+}
+
+.content-container h2 {
+  font-size: 30px;
 }
 
 .content-container h3 {
   font-family: var(--secondary-font-family);
   font-weight: 700;
+}
+
+.technologies {
+  text-align: center;
+}
+
+.technologies img {
+  max-width: 50px;
+  max-height: auto;
+}
+
+.project-button {
+  background-color: var(--bg-color);
+  padding: 30px 0;
+}
+
+.certificates {
+  text-align: center;
+  padding: 50px 30px;
+}
+
+.certificates h2 {
+  font-size: 50px;
+  font-style: italic;
+}
+
+.certificates h3 {
+  margin-top: 25px;
 }
 
 footer .social-links a {
@@ -179,5 +211,15 @@ footer .social-links a:hover {
   .content-container h1 {
     font-size: 50px;
     margin-top: 0;
+  }
+
+  .technologies-icons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+
+  footer {
+    padding: 30px 20px;
   }
 }
