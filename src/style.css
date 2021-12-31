@@ -67,6 +67,7 @@ footer {
   font-size: 36px;
   line-height: 54px;
   font-weight: 700;
+  margin-top: 30px;
 }
 
 .hero h1 {
@@ -120,7 +121,6 @@ footer {
 .content-container h1 {
   font-size: 64px;
   line-height: 80px;
-  margin-top: 30px;
 }
 
 .content-container h3 {
@@ -143,16 +143,6 @@ footer .social-links a:hover {
   transition: all 100ms ease-in-out;
   animation: fa-spin 7s linear 0s infinite normal none;
 }
-
-/*footer .email-link {
-  text-decoration: none;
-  color: black;
-  font-size: 24px;
-  text-align: center;
-}
-footer .email-link:hover {
-  color: var(--btn-color);
-}*/
 
 @media (max-width: 900px) {
   .hero {
